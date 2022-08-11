@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Testing2": {
+      "type": "string"
+    },
+    "school_websites": {
+      "collection": "school-website",
+      "via": "categories",
+      "dominant": true
+    }
+  }
+}

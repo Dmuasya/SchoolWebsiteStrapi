@@ -1,0 +1,35 @@
+// 0-abstract
+@import "0-abstract/variables";
+@import "0-abstract/mixin";
+@import "0-abstract/placeholder";
+@import "0-abstract/function";
+
+// 1-base
+@import "1-base/normalize";
+@import "1-base/reset";
+@import "1-base/typography";
+
+// 2-components
+
+
+
+// 3-layout
+@import "./3-layout/topNav";
+@import "./3-layout/navbar";
+@import "./3-layout/slider";
+@import "./3-layout/cards";
+@import "./3-layout/modal";
+@import "./3-layout/admission";
+@import "./3-layout/about";
+@import "./3-layout/principal";
+@import "./3-layout/notice";
+@import "./3-layout/achieve";
+@import "./3-layout/tour";
+@import "./3-layout/courses";
+@import "./3-layout/studenttest";
+@import "./3-layout/footer";
+@import "./3-layout/result";
+@import "./3-layout/blog";
+@import "./3-layout/contact";
+@import "./3-layout/management";
+@import "./3-layout/gallery";

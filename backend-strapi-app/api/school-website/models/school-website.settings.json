@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_websites",
+  "info": {
+    "name": "SchoolWebsite"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Class": {
+      "type": "string"
+    },
+    "Names": {
+      "type": "string"
+    },
+    "categories": {
+      "via": "school_websites",
+      "collection": "categories"
+    }
+  }
+}

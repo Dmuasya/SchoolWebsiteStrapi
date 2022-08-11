@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website - Strapi CMS</title>
+    <link rel="stylesheet" href="css/minified/style.min.css">
+    <script
+    src="https://kit.fontawesome.com/fc31dedf63.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+
+  <!-- Modal on page load -->
+  <div class="modal" id="modal-one" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-header">
+             <h2>Namaste !</h2>
+ <a href="#modal-one" class="btn-close" aria-hidden="true">×</a>
+
+        </div>
+        <div class="modal-body">
+            <p>This is the Moi Forces Academy  Website but it's <br /> made for portfolio showcase project</p>
+            <p>Developer: Dennis Muasya</p>
+            <a href="https://twitter.com/DennisM">You can find me here! on twitter</a>
+        </div>
+        <div class="modal-footer"> <a href="#modal-one" class="btn">Nice!</a>
+
+        </div>
+    </div>
+</div>
+  <!-- End modal on page load -->
+    
+    <!-- top Nav -->
+    <div class="top" id="topNav">
+      <div class="topHeader">
+
+        <div class="topHeader__left">
+        <p class="topHeader__msg">  </p> 
+         </div>
+
+        <div class="topHeader__right"> 
+        <p class="topHeader__samStyl"><i  class="fas fa-phone-alt topHeader__samStyl"></i><span class="number"></span></p>
+        <p class="topHeader__samStyl topHeader__samStyl1"><i class="fas fa-map-marker-alt topHeader__samStyl"></i><span class="location"></span></p>
+        </div>
+
+        </div>
+    </div>
+    <!-- End - topNav -->
+
+    <!-- Navbar -->
+    <div id="nav">
+
+            
+  <div class="navbar">
+    <div class="navbar__container">
+      <nav class="navbar__block">
+     
+        <a href="#"class="navbar__logo"><img class="navbar__img"  src="./img/logo.jpg" /></a>
+
+        
+        <ul class="navbar__ul">
+  <li><a class="navbar__list0" href="#"></a></li>
+  <li><a class="navbar__list1" href="./pages/notice.html"> Notice</a></li>
+  <li><a class="navbar__list2" href="./pages/result.html">Result</a></li>
+  <li><a class="navbar__list3" href="./pages/blog.html">Blog</a></li>
+  <li><a class="navbar__list4" href="./pages/gallery.html">Gallery</a></li>
+  <li><a class="navbar__list5" href="./pages/management.html">Management</a></li>
+  <li><a class="navbar__list6" href="./pages/contact.html">Contact</a></li>
+  <li><a class="navbar__list7" href="#admission"><span class="navbar__list7span"></span>Admission</a></li>
+
+</ul>
+
+       
+        <button class="navbar__toggler">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </div>
+
+    </div>
+    <!-- End Navbar -->
+
+
+    <!-- Image slider -->
+
+    <div class="blog-slider__container">
+      <div class="blogSlides fade">
+        <div class="blog-slider__numbertext">1 / 3</div>
+        <img class="slider__image1" src="./img/pics (4).jpg">
+        <div class="blog-slider__text">Caption Text</div>
+      </div>
+    
+      <div class="blogSlides fade">
+        <div class="blog-slider__numbertext">2 / 3</div>
+        <img class="slider__image2" src="./img/pics (1).jpg">
+        <div class="blog-slider__text">Caption Two</div>
+      </div>
+    
+      <div class="blogSlides fade">
+        <div class="blog-slider__numbertext">3 / 3</div>
+        <img class="slider__image3" src="./img/pic1.jpg">
+        <div class="blog-slider__text">Caption Three</div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div class="blogSlider__dots" style="text-align:center">
+      <span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span> 
+      <span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span> 
+      <span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <!-- End Image Slider -->
+
+    <!-- cards below slider -->
+    <div class="cards">
+      <!-- cards feature -->
+      <div class="cards__feature">
+        <div class="cards__feature1">
+          <div class="cards__icon">
+            <i  class="fas fa-graduation-cap fa-4x icon-color"></i>
+          </div>
+          <div class="cards__h3">
+            <h3 class="cards__h3ele cards__h3eleColor"></h3>
+          </div>
+        </div>
+
+        <div class="cards__feature1">
+          <div class="cards__icon">
+            <i class="fab fa-buromobelexperte fa-4x icon-color"></i>
+          </div>
+          <div class="cards__h3">
+            <h3 class="cards__h3ele1 cards__h3eleColor"></h3>
+          </div>
+        </div>
+
+        <div class="cards__feature1">
+          <div class="cards__icon">
+            <i class="fas fa-check fa-4x icon-color"></i>
+          </div>
+          <div class="cards__h3">
+            <h3 class="cards__h3ele2 cards__h3eleColor"></h3>
+          </div>
+        </div>
+      </div>
+      <!-- End cards feature -->
+    </div>
+    <!-- End cards below slider -->
+
+    <!-- admission section -->
+    <section id="admission" class="admissionSection">
+      <!-- section-container -->
+      <div class="admissionSection__container">
+        <!-- left -->
+        <div class="admissionSection__leftContainer">
+        <h1 class="admissionSection__h1"></h1>
+        <p class="admissionSection__p0"></p>
+        <h3 class="admissionSection__h3"></h3>
+        <h4 class="admissionSection__h4"></h4>
+        <p class="admissionSection__p1 "></p>
+        <p class="admissionSection__p2"><i class="fas fa-phone-alt icon-color"></i><span class="admissionSection__number"></span></p>
+      </div>
+        <!-- End left -->
+        <!-- right -->
+        <div class="admissionSection__rightImgContainer">
+          <img class="admissionSection__bannerImg" src="./img/pics (3).jpg" alt="admission banner" />
+        </div>
+        <!-- end right -->
+      </div>
+      <!-- End section container -->
+    </section>
+    <!-- End Admission section -->
+
+    <!-- About Section -->
+    <section id="about" class="aboutSection">
+      <!-- section-container -->
+      <div class="aboutSection__container">
+        <!-- left -->
+        <div class="aboutSection__leftContainer">
+        <h1 class="aboutSection__h1"></h1>
+        <h3 class="aboutSection__h3"></h3>
+        <p class="aboutSection__p0"></p>
+        <p class="aboutSection__p1"></p>
+        <p class="aboutSection__p2"></p>
+
+      </div>
+        <!-- End left -->
+        <!-- right -->
+        <div class="aboutSection__rightImgContainer">
+          <img class="aboutSection__bannerImg" src="./img/pics (5).jpg" alt="about section img" />
+        </div>
+        <!-- end right -->
+      </div>
+      <!-- End section container -->
+    </section>
+    <!-- End About Section -->
+
+    <!-- Principal Section -->
+
+    <section id="principal" class="principalSection">
+      <!-- section-container -->
+      <div class="principalSection__container">
+        <!-- left -->
+        <div class="principalSection__leftContainer">
+         
+        <p class="principalSection__p0"></p>
+        <h1 class="principalSection__h1"></h1>
+        <p class="principalSection__p1"></p>
+        
+      </div>
+        <!-- End left -->
+        <!-- right -->
+        <div class="principalSection__rightImgContainer">
+          <img class="principalSection__Img" src="./img/princi.jpg" alt="principal section img" />
+        </div>
+        <!-- end right -->
+      </div>
+      <!-- End section container -->
+    </section>
+
+    <!-- End principal section -->
+
+    
+      <!-- Notices -->
+      <section class="notices">
+        <!-- notices container -->
+        <div class="notices__container">
+            <!-- Heading -->
+            <h1 class="notices__heading"></h1>
+            <!-- End-heading -->
+            <!-- notices - list -->
+            <div class="notices__lists">
+
+              <!-- <a  class="notice__open" href=""></a> -->
+
+              <!-- <a class="notice__open1" href=""></a> -->
+
+            </div>
+            <!-- End notices list -->
+        </div>
+        <!-- End notices container -->
+
+        <a style="text-decoration: none; font-size: 2rem; padding: 0.6rem; background: #8C7AE6; color: #fff;" href="./pages/notice.html">View All</a>
+    </section>
+    <!-- End notices -->
+
+    <!-- Hamro patra calendar -->
+    
+    <iframe class="calendar" src="https://www.php.net/manual/en/book.calendar.php" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"
+    style="border:none; overflow:hidden; width:100%; height:840px;" allowtransparency="true" allowfullscreen></iframe>
+
+    <!-- End Hamro patra calendar -->
+    
+
+    <!-- acheivements section -->
+
+    <section class="achieve">
+
+      <!-- achieve container -->
+      <div class="achieve__container">
+        <h1 class="achieve__h1"></h1>
+        <div class="achieve__section">
+          <div class="achieve__sectionList">
+            <img class="achieve__imgIcon" src="./img/ach1.png" alt="achieveIcon" />
+            <h3 class="achieve__h3"></h3>
+            <p class="achieve__p"></p>
+          </div>
+
+          <div class="achieve__sectionList">
+            <img class="achieve__imgIcon1" src="./img/ach2.png" alt="achieveIcon" />
+            <h3 class="achieve__h31"></h3>
+            <p class="achieve__p1"></p>
+          </div>
+
+          <div class="achieve__sectionList">
+            <img class="achieve__imgIcon" src="./img/ach3.png" alt="achieveIcon" />
+            <h3 class="achieve__h32"></h3>
+            <p class="achieve__p2"></p>
+          </div>
+
+          <div class="achieve__sectionList">
+            <img class="achieve__imgIcon" src="./img/ach4.png" alt="achieveIcon" />
+            <h3 class="achieve__h33"></h3>
+            <p class="achieve__p3"></p>
+          </div>
+
+        </div>
+      </div>
+      <!-- End achieve container -->
+
+    </section>
+
+    <!-- End acheivements section -->
+
+    <!-- tour -->
+
+    <section class="tour">
+
+    <div class="tour__container">
+     
+      <div class="tour__section">
+        <div class="tour__h1"></div>
+        <div class="tour__icon"><i style="color: #8C7AE6;" class="fas fa-play fa-3x"></i></div>
+        <div class="tour__desc"></div>
+      </div>
+
+    </div>
+
+  </section>
+    <!-- End tour -->
+
+    <!-- courses offered -->
+
+    <section class="courses">
+      <!-- courses container -->
+      <div class="courses__container">
+        <h1 class="courses__h1"></h1>
+        <p class="courses__p"></p>
+
+        <div class="courses__cards">
+
+        </div>
+
+      </div>
+      <!-- End courses container -->
+    </section>
+
+    <!-- End courses offered -->
+
+     <!-- Testimonials -->
+    
+
+<section id="testim" class="testim">
+  <!--         <div class="testim-cover"> -->
+              <div class="wrap">
+                
+                <h1 class="container9__h1"></h1>
+                <p class="container9__p0"></p>
+
+                  <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                  <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                  <ul id="testim-dots" class="dots">
+                      <li class="dot active"></li>
+                      <li class="dot"></li>
+                      
+                  </ul>
+                  <div id="testim-content" class="cont">
+                      
+                     
+  
+                      
+              </div>
+  <!--         </div> -->
+
+</section>
+
+    <!-- End - Testimonials -->
+
+    <!-- App -->
+    <section class="app">
+
+      <div class="app__container">
+        <h1 class="app__h1">Download Android App</h1>
+      <div class="app__btn">
+        <img src="img/app.png" alt="android app">
+      </div>
+      </div>
+
+    </section>
+    <!-- End - App -->
+
+    <!-- location map -->
+
+    <div class="map-responsive">
+      <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8477650621167!2d36.87067621427455!3d-1.263804835957338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f141f3103fa13%3A0xb2d54caab51b0d4!2sMoi%20Forces%20Academy%20Primary%20School-Nairobi!5e0!3m2!1sen!2ske!4v1658885566556!5m2!1sen!2ske" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    
+    <!-- End location map -->
+
+    <!-- footer -->
+
+    <section class="footer">
+      <!-- footer container -->
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img class="footer__img" src="./img/logo.jpg" alt="footer-logo">
+        </div>
+
+        <div class="footer__nav">
+          
+        </div>
+
+        <div class="footer__contact">
+
+        </div>
+      </div>
+      <!-- End footer container -->
+
+      <!-- footer bottom -->
+      <div class="footer__bottom">
+        <h4 class="footer__h4btm"></h4>
+        <p class="footer__btmp"></p>
+      </div>
+      <!-- End footer bottom -->
+    </section>
+
+    <!-- End-footer -->
+
+    <script async type="module" src="js/script.js"></script>
+    <script async src="js/modules/home/sliders.js"></script>
+</body>
+</html>
+
+
